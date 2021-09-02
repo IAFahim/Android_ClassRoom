@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_class"
+            android:icon="@drawable/ic_class"
+            android:title="@string/Class" />
+        <item
+            android:id="@+id/nav_calender"
+            android:icon="@drawable/ic_calendar"
+            android:title="@string/menu_Calender" />
+        <item
+            android:id="@+id/nav_notification"
+            android:icon="@drawable/ic_notifications"
+            android:title="@string/menu_Notification" />
+    </group>
+
+    <item android:title="Enrolled">
+        <menu>
+            <item
+                android:id="@+id/todo"
+                android:icon="@drawable/ic_todo"
+                android:title="To-do" />
+        </menu>
+    </item>
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/settings"
+            android:icon="@drawable/ic_settings"
+            android:title="Settings" />
+        <item
+            android:id="@+id/help"
+            android:icon="@drawable/ic_help"
+            android:title="Help" />
+    </group>
+</menu>
